@@ -1,0 +1,33 @@
+import Image from 'next/image'
+
+import * as React from 'react';
+import BasketballPic from '../Assets/basketball.svg';
+export const Basketball:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={BasketballPic} width={data.width} height={data.height} alt='basketball' className={data.className} style={{overflow : "hidden"}}/>};
+import Book_readingPic from '../Assets/book_reading.svg';
+export const Book_reading:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={Book_readingPic} width={data.width} height={data.height} alt='book_reading' className={data.className} style={{overflow : "hidden"}}/>};
+import ChecklistPic from '../Assets/checklist.svg';
+export const Checklist:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={ChecklistPic} width={data.width} height={data.height} alt='checklist' className={data.className} style={{overflowY : "hidden"}}/>};
+import DudePic from '../Assets/dude.png';
+export const Dude:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={DudePic} width={data.width} height={data.height} alt='dude' className={data.className} style={{overflowY : "hidden"}}/>};
+import GunshootPic from '../Assets/gunshoot.svg';
+export const Gunshoot:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={GunshootPic} width={data.width} height={data.height} alt='gunshoot' className={data.className} style={{overflowY : "hidden"}}/>};
+import ManPic from '../Assets/man.svg';
+export const Man:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={ManPic} width={data.width} height={data.height} alt='man' className={data.className} style={{overflowY : "hidden"}}/>};
+import PlanetPic from '../Assets/planet.svg';
+export const Planet:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={PlanetPic} width={data.width} height={data.height} alt='planet' className={data.className} style={{overflowY : "hidden"}}/>};
+import ProjectsPic from '../Assets/projects.svg';
+export const Projects:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={ProjectsPic} width={data.width} height={data.height} alt='projects' className={data.className} style={{overflowY : "hidden"}}/>};
+import RingsPic from '../Assets/rings.svg';
+export const Rings:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={RingsPic} width={data.width} height={data.height} alt='rings' className={data.className} style={{overflowY : "hidden"}}/>};
+import RocketPic from '../Assets/rocket.svg';
+export const Rocket:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={RocketPic} width={data.width} height={data.height} alt='rocket' className={data.className} style={{overflowY : "hidden"}}/>};
+import SocialPic from '../Assets/social.svg';
+export const Social:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={SocialPic} width={data.width} height={data.height} alt='social' className={data.className} style={{overflowY : "hidden"}}/>};
+import VectorPic from '../Assets/Vector.svg';
+export const Vector:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={VectorPic} width={data.width} height={data.height} alt='Vector' className={data.className} style={{overflowY : "hidden"}}/>};
+import VrPic from '../Assets/vr.svg';
+export const Vr:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={VrPic} width={data.width} height={data.height} alt='vr' className={data.className} style={{overflowY : "hidden"}}/>};
+import IntroPic from '../Assets/Intro.svg';
+export const Intro:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={IntroPic} width={data.width} height={data.height} alt='vr' className={data.className} style={{overflowY : "hidden"}}/>};
+import BubblePic from '../Assets/Buble.svg';
+export const Bubble:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={BubblePic} width={data.width} height={data.height} alt='vr' className={data.className} style={{overflowY : "hidden"}}/>};

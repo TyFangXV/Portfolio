@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-y:hidden;
+}
+
+.aboutmediv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.bubbleDiv{
+    overflow-y: hidden;
+    margin-right: 7vw;
+}
+
+.bubble{
+    background: none;
+    width: 52.083333333333336vw;
+    height: 101.01010101010101vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.aboutmeText{
+    width: 720px;
+    color: #BFADF1;
+    line-height: 4vh;
+    font-size: 1.25em;
+    background: none;
+    position: relative;
+    margin-top: 10rem;
+    right: 7rem;
+    z-index: 1;
+}
+
+.stock{
+    height: 44.19191919191919vh;
+    width: 22.786458333333332vw;
+}
