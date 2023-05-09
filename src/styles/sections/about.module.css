@@ -18,8 +18,7 @@
 
 
 .bubbleDiv{
-    overflow-y: hidden;
-    margin-right: 7vw;
+    background: none;
 }
 
 .bubble{
@@ -31,7 +30,7 @@
 }
 
 .aboutmeText{
-    width: 720px;
+    width: 800px;
     color: #BFADF1;
     line-height: 4vh;
     font-size: 1.25em;
