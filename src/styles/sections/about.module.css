@@ -1,46 +1,46 @@
-.header{
+.header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    overflow-y:hidden;
-}
-
-.aboutmediv{
+    overflow-y: hidden;
+  }
+  
+  .aboutmediv {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.gallery{
+  }
+  
+  .gallery {
     display: flex;
     flex-direction: column;
-}
-
-
-.bubbleDiv{
+  }
+  
+  .bubbleDiv {
     background: none;
-}
-
-.bubble{
-    background: none;
-    width: 52.083333333333336vw;
-    height: 101.01010101010101vh;
+    width: 65vw;
+    height: auto;
+    margin-right: 2vw;
+    position: relative; /* Add this line to establish a positioning context */
+  }
+  
+  .bubbleBackground {
+    margin: 10px;
+    background: url("/buble.svg") center/cover no-repeat;
+    width: 85%;
+    height: 85%;
     position: absolute;
-    z-index: -1;
-}
-
-.aboutmeText{
-    width: 800px;
-    color: #BFADF1;
+  }
+  
+  .aboutmeText {
+    color: #bfadf1;
     line-height: 4vh;
-    font-size: 1.25em;
-    background: none;
-    position: relative;
-    margin-top: 10rem;
+    font-size: 1.15em;
+    background: #00000000;
     right: 7rem;
-    z-index: 1;
-}
-
+    top: 10vh;
+    position: absolute;
+  }
 .stock{
     height: 44.19191919191919vh;
     width: 22.786458333333332vw;
