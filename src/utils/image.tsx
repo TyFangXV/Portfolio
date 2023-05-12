@@ -29,5 +29,5 @@ import VrPic from '../Assets/vr.svg';
 export const Vr:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={VrPic} width={data.width} height={data.height} alt='vr' className={data.className} style={{overflowY : "hidden"}}/>};
 import IntroPic from '../Assets/intro.svg';
 export const Intro:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={IntroPic} width={data.width} height={data.height} alt='vr' className={data.className} style={{overflowY : "hidden"}}/>};
-import BubblePic from '../Assets/Buble.svg';
+import BubblePic from '../Assets/buble.svg';
 export const Bubble:React.FC<{width:number, height:number, className?:string}> = (data) => {return <Image src={BubblePic} width={data.width} height={data.height} alt='vr' className={data.className} style={{overflowY : "hidden"}}/>};
