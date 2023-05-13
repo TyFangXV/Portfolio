@@ -2,6 +2,7 @@
   "name": "mysite",
   "version": "0.1.0",
   "private": true,
+  "description": "A portfolio site made using nextjs",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
